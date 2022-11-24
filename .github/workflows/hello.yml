@@ -1,7 +1,7 @@
 name: Hello World!
 
 on:
-  pus:
+  push:
     branches:
       - master
 
@@ -12,3 +12,5 @@ jobs:
       - name: Say Hello
       run: |
         echo "Hello World!"
+
+
